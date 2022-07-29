@@ -18,6 +18,9 @@
   "dependencies": {
     "@frctl/fractal": "^1.2.1"
   },
+  "devDependencies": {
+    "pressbooks-build-tools": "^3.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pressbooks/pressbooks-book.git",
@@ -33,14 +36,13 @@
     "url": "https://github.com/pressbooks/aetna/issues"
   },
   "homepage": "https://github.com/pressbooks/aetna#readme",
+  "eslintConfig": {
+    "extends": "./node_modules/pressbooks-build-tools/config/eslint.js"
+  },
   "stylelint": {
     "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js",
     "rules": {
       "no-descending-specificity": null
     }
-  },
-  "gitHead": "d8f356c924ea88204d555650f7c9a28a66ba2292",
-  "devDependencies": {
-    "pressbooks-build-tools": "^3.0.1"
   }
 }
