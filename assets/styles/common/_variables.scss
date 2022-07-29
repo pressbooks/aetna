@@ -87,7 +87,7 @@ $headings-color: var(--primary) !default;
 
 $small-font-size: 80% !default;
 
-$text-muted: #888 !default;
+$text-muted: #666 !default;
 
 $dt-font-weight: $font-weight-bold !default;
 
@@ -99,18 +99,15 @@ $large: 1200px !default;
 $extra-large: 1650px !default;
 
 $breakpoint-not-small: "screen and (min-width: 30rem)" !default;
-$breakpoint-medium: "screen and (min-width: 30rem) and (max-width: 60rem)"
-  !default;
+$breakpoint-medium: "screen and (min-width: 30rem) and (max-width: 60rem)" !default;
 $breakpoint-large: "screen and (min-width: 60rem)" !default;
 $breakpoint-extra-large: "screen and (min-width: 90rem)" !default;
 $breakpoint-not-large: "screen and (max-width: 59.975rem)" !default;
-$breakpoint-max-content: "screen and (min-width: #{$content-max-width})"
-  !default;
+$breakpoint-max-content: "screen and (min-width: #{$content-max-width})" !default;
 
 $breakpoint-small-to-tablet: "screen and (max-width: 767px)" !default;
 $breakpoint-tablet-and-up: "screen and (min-width: 768px)" !default;
-$breakpoint-tablet-to-large: "screen and (min-width: 768px) and (max-width: 60em)"
-  !default;
+$breakpoint-tablet-to-large: "screen and (min-width: 768px) and (max-width: 60em)" !default;
 
 // Components
 //
@@ -199,7 +196,7 @@ $input-focus-border-color: var(--primary-alpha) !default;
 $input-focus-box-shadow: $input-box-shadow, $btn-focus-box-shadow !default;
 $input-focus-color: $input-color !default;
 
-$input-placeholder-color: #888 !default;
+$input-placeholder-color: #666 !default;
 
 $input-height-border: $input-btn-border-width * 2 !default;
 
@@ -224,7 +221,7 @@ $dropdown-spacer: 0.125rem !default;
 $dropdown-bg: var(--body-bg) !default;
 $dropdown-border-color: rgba(0, 0, 0, 0.15) !default;
 $dropdown-border-width: $border-width !default;
-$dropdown-divider-bg: #888 !default;
+$dropdown-divider-bg: #666 !default;
 $dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175) !default;
 
 $dropdown-link-color: #222 !default;
@@ -234,12 +231,12 @@ $dropdown-link-hover-bg: var(--accent) !default;
 $dropdown-link-active-color: $component-active-color !default;
 $dropdown-link-active-bg: $component-active-bg !default;
 
-$dropdown-link-disabled-color: #888 !default;
+$dropdown-link-disabled-color: #666 !default;
 
 $dropdown-item-padding-y: 0.25rem !default;
 $dropdown-item-padding-x: 1.5rem !default;
 
-$dropdown-header-color: #888 !default;
+$dropdown-header-color: #666 !default;
 
 // Z-index master list
 //
