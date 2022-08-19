@@ -37,7 +37,7 @@ a.call-to-action {
   &:active,
   &.active {
     background-image: none;
-    @include btn-active-box-shadow();
+    @include btn-active-box-shadow;
   }
 }
 
@@ -198,7 +198,7 @@ input[type="submit"] {
   &:active,
   &.active {
     background-image: none;
-    @include btn-active-box-shadow();
+    @include btn-active-box-shadow;
   }
 
   &--accent {

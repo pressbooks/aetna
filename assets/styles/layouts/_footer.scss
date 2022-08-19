@@ -17,7 +17,7 @@
     font-weight: 600;
     margin-bottom: 1rem;
 
-    &:before {
+    &::before {
       display: none;
     }
   }
@@ -182,7 +182,7 @@
     list-style: none;
     text-align: center;
     font-weight: 600;
-    line-height: (36/16);
+    line-height: (36 / 16);
   }
 
   &__block {
