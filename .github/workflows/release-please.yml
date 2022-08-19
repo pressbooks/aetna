@@ -15,3 +15,4 @@ jobs:
           release-type: node
           package-name: aetna
           include-v-in-tag: false
+          release-as: 1.0.0
