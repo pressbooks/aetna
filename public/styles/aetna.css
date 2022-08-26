@@ -1499,12 +1499,6 @@ nav {
 }
 .header {
   font-family: "Karla", sans-serif;
-  padding: 3.5rem 1rem 1.5rem;
-}
-@media screen and (min-width: 60rem) {
-  .header {
-    padding: 3rem 1rem;
-  }
 }
 
 .header__inside {
@@ -1513,6 +1507,12 @@ nav {
   justify-content: space-between;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 3.5rem 1rem 1.5rem;
+}
+@media screen and (min-width: 60rem) {
+  .header__inside {
+    padding: 3rem 1rem;
+  }
 }
 
 .header__logo--img,
