@@ -5,35 +5,37 @@
   "style": "assets/styles/aetna.scss",
   "scripts": {
     "build": "mix",
-    "build:production": "mix --production",
-    "start": "mix watch",
     "fractal:build": "fractal build",
     "fractal:start": "fractal start --sync",
-    "rmdist": "rimraf public",
-    "lint": "npm run -s lint:scripts && npm run -s lint:styles",
     "lint:scripts": "eslint \"src/components/**/*.js\"",
     "lint:styles": "stylelint \"assets/styles/**/*.scss\"",
-    "test": "npm run -s lint"
+    "lint": "run-s lint:*",
+    "production": "mix --production",
+    "rmdist": "rimraf public",
+    "start": "mix watch",
+    "test": "npm run lint"
   },
   "dependencies": {
     "@frctl/fractal": "^1.5.14"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.0",
-    "chalk": "^2.4.1",
-    "eslint": "^8.22.0",
-    "eslint-plugin-flowtype": "^8.0",
-    "eslint-plugin-import": "^2.0",
-    "eslint-plugin-jsdoc": "^39.0",
-    "eslint-plugin-sort-destructure-keys": "^1.4",
-    "laravel-mix": "^6.0.49",
-    "resolve-url-loader": "^5.0.0",
-    "sass": "^1.54.4",
-    "sass-loader": "^12.6.0",
-    "stylelint": "^14.10.0",
-    "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-recommended": "^9.0.0",
-    "stylelint-config-standard-scss": "^5.0.0"
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1",
+    "npm-run-all": "^4.1.5",
+    "pressbooks-build-tools": "^4.0.0"
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/pressbooks-build-tools/config/eslint.js"
+  },
+  "stylelint": {
+    "extends": "./node_modules/pressbooks-build-tools/config/stylelint.js",
+    "rules": {
+      "no-descending-specificity": null
+    }
   },
   "repository": {
     "type": "git",
