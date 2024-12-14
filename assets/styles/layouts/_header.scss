@@ -4,17 +4,17 @@
   font-family: $font-family-sans-serif;
 }
 
+.header__container {
+  background: var(--header-bg);
+}
+
 .header__inside {
   align-items: center;
   display: flex;
   justify-content: space-between;
   max-width: $nav-max-width;
   margin: 0 auto;
-  padding: 3.5rem 1rem 1.5rem;
-
-  @media #{$breakpoint-large} {
-    padding: 3rem 1rem;
-  }
+  padding: 1.5rem 1rem;
 }
 
 .header__logo--img,
