@@ -4,36 +4,35 @@
   font-family: $font-family-sans-serif;
 }
 
+.header__container {
+  background: var(--header-bg);
+}
+
 .header__inside {
   align-items: center;
   display: flex;
   justify-content: space-between;
   max-width: $nav-max-width;
   margin: 0 auto;
-  padding: 3.5rem 1rem 1.5rem;
-
-  @media #{$breakpoint-large} {
-    padding: 3rem 1rem;
-  }
+  padding: 1.5rem 1rem;
 }
 
 .header__logo--img,
 .header__logo--svg {
   display: inline-block;
   width: auto;
-  max-width: 100px;
+  max-width: 200px;
   height: auto;
-  max-height: 1.5rem;
+  max-height: 70px;
   margin-bottom: -1px;
   margin-right: 2px;
 
   @media #{$breakpoint-medium} {
-    max-width: 150px;
+    max-width: 240px;
   }
 
   @media #{$breakpoint-large} {
-    max-width: 200px;
-    max-height: 30px;
+    max-width: 280px;
   }
 }
 
