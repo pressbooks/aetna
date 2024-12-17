@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/pressbooks/aetna/compare/v1.0.2...v1.0.3) (2024-12-17)
+
+
+### Bug Fixes
+
+* increase logo size ([#87](https://github.com/pressbooks/aetna/issues/87)) ([5ce30d8](https://github.com/pressbooks/aetna/commit/5ce30d888c4f927df2581a5605ca61f1cf68712c))
+
 ## [1.0.2](https://github.com/pressbooks/aetna/compare/v1.0.1...v1.0.2) (2023-03-06)
 
 
