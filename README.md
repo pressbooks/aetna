@@ -27,10 +27,8 @@ Run a test build to ensure that your Sass compiles without issue: `npm run build
 
 ## Releasing
 
-1. Run `npm run production` to generate an updated stylesheet for the component library which is published at <https://aetna.pressbooks.org>.
-2. Commit the changes using the `chore` scope in your commit message:
-   `git commit -am "chore(build): build stylesheet`
-3. Push this change to GitHub.
-4. Inspect the automatically generated [release pull request](https://github.com/google-github-actions/release-please-action).
-5. If it looks good, you can merge it which will tag a new version and create a new GitHub release.
-6. Pull the latest changes into your local environment, then run `npm publish`.
+Aetna uses Conventional Commits, enforced with commitlint. This facilitates releasing new versions of the package via Release Please. Release notes will be automatically added to a PR based on commits to dev.
+
+To cut a release, merge the current release pull request. This will tag a new GitHub release and update CHANGELOG.md.
+
+Then, run npm publish from the root of the package and enter your one-time password when prompted. For more information on publishing to npm, see the npm publish documentation.
