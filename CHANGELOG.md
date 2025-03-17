@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/pressbooks/aetna/compare/v1.0.3...v1.0.4) (2025-03-17)
+
+
+### Bug Fixes
+
+* cta button style ([#96](https://github.com/pressbooks/aetna/issues/96)) ([387902a](https://github.com/pressbooks/aetna/commit/387902a4f8a29de0c58779432d00a6e84351b87b))
+
 ## [1.0.3](https://github.com/pressbooks/aetna/compare/v1.0.2...v1.0.3) (2024-12-17)
 
 
