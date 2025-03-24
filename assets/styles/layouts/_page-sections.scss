@@ -57,13 +57,16 @@
   }
 
   button {
+    display: inline-flex;
     background-color: unset;
-    border: 0;
+    border: none;
     border-radius: 50%;
-    padding: 10px 0 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
     width: 3rem;
+    height: 3rem;
+    cursor: pointer;
   }
 }
 
