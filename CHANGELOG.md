@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/pressbooks/aetna/compare/v1.0.4...v1.0.5) (2025-03-27)
+
+
+### Bug Fixes
+
+* focus state radio ([#98](https://github.com/pressbooks/aetna/issues/98)) ([44ae797](https://github.com/pressbooks/aetna/commit/44ae797fd87a0ef8eee2d867ee7752b9d870a780))
+
 ## [1.0.4](https://github.com/pressbooks/aetna/compare/v1.0.3...v1.0.4) (2025-03-17)
 
 
