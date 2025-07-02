@@ -102,6 +102,10 @@
       padding-left: 1rem;
       font-size: 1.125rem;
     }
+
+    a {
+      color: var(--header-links);
+    }
   }
 
   @media #{$breakpoint-not-large} {
@@ -148,10 +152,7 @@
       a {
         display: block;
         width: 100%;
-
-        &:hover {
-          color: var(--header-color);
-        }
+        color: var(--header-links);
       }
     }
   }
@@ -183,13 +184,6 @@
   display: inline-block;
   position: relative;
   width: 12rem;
-
-  // label {
-  //   height: 0;
-  //   overflow: hidden;
-  //   position: absolute;
-  //   width: 0;
-  // }
 
   label {
     position: absolute;
