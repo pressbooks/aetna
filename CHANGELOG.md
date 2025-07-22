@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/pressbooks/aetna/compare/v1.0.5...v1.1.0) (2025-07-22)
+
+
+### Features
+
+* add header link color variable ([#105](https://github.com/pressbooks/aetna/issues/105)) ([db21ea2](https://github.com/pressbooks/aetna/commit/db21ea24327a14f415fb71bf0322ee2df6ed8693))
+
 ## [1.0.5](https://github.com/pressbooks/aetna/compare/v1.0.4...v1.0.5) (2025-03-27)
 
 
