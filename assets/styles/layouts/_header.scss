@@ -135,15 +135,13 @@
     }
 
     .header__nav--active & {
-      --header-color: var(--primary-fg);
-
       margin: 0;
       padding: 6rem 52px;
       z-index: 99;
-      background: var(--primary);
+      background: var(--header-bg);
 
       .nav--primary li {
-        border-bottom: solid 1px var(--header-color);
+        border-bottom: solid 1px var(--header-links);
 
         &:last-child {
           border-bottom: 0;
@@ -152,10 +150,10 @@
         a {
           display: block;
           width: 100%;
-          color: var(--header-color);
+          color: var(--header-links);
 
           &:hover {
-            color: var(--header-color);
+            color: var(--header-links);
           }
         }
       }
