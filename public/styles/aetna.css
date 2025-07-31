@@ -1573,13 +1573,13 @@ nav {
   top: 7px;
   width: 25px;
   height: 3px;
-  background: var(--primary);
+  background: var(--header-links);
 }
 .header__nav-icon__icon::before, .header__nav-icon__icon::after {
   width: 25px;
   height: 3px;
   content: "";
-  background: var(--primary);
+  background: var(--header-links);
 }
 .header__nav-icon__icon::before {
   position: absolute;
@@ -1659,7 +1659,7 @@ nav {
   .header__nav--active .js-header-nav .nav--primary li a:hover {
     color: var(--header-color);
   }
-}
+}g
 
 .header--home {
   --brand: var(--header-color);
