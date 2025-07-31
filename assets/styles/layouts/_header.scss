@@ -75,19 +75,6 @@
       top: 7px;
       right: 0;
     }
-
-    .header__nav--active & {
-      --header-bg: var(--primary);
-      --header-text: var(--primary-fg);
-
-      color: var(--header-text);
-      background: var(--header-text);
-
-      &::before,
-      &::after {
-        background: var(--header-text);
-      }
-    }
   }
 }
 
@@ -230,7 +217,7 @@
       border-bottom: 1px solid var(--header-links);
 
       &:focus {
-        border-color: var(--brand-orig);
+        border-color: var(--header-links);
       }
     }
   }
