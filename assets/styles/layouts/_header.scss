@@ -213,8 +213,8 @@
   input[type="search"] {
     background-color: transparent;
     border: 0 none;
-    border-bottom: 2px solid var(--primary);
-    color: var(--body-color);
+    border-bottom: 2px solid var(--header-links);
+    color: var(--header-links);
     width: 12rem;
 
     &:focus {
@@ -226,8 +226,8 @@
     }
 
     .header--home & {
-      color: var(--header-color);
-      border-bottom: 1px solid var(--header-color);
+      color: var(--header-links);
+      border-bottom: 1px solid var(--header-links);
 
       &:focus {
         border-color: var(--brand-orig);
