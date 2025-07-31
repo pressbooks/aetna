@@ -54,14 +54,14 @@
     top: 7px;
     width: 25px;
     height: 3px;
-    background: var(--primary);
+    background: var(--header-links);
 
     &::before,
     &::after {
       width: 25px;
       height: 3px;
       content: "";
-      background: var(--primary);
+      background: var(--header-links);
     }
 
     &::before {
@@ -96,6 +96,7 @@
     list-style: none;
     padding-left: 0;
     margin-bottom: 0;
+    background-color: var(--header-bg);
 
     li {
       display: inline;
@@ -139,6 +140,7 @@
       margin: 0;
       padding: 6rem 52px;
       z-index: 99;
+      background: var(--primary);
 
       .nav--primary li {
         border-bottom: solid 1px var(--header-color);
