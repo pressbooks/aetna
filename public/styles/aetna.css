@@ -1573,13 +1573,13 @@ nav {
   top: 7px;
   width: 25px;
   height: 3px;
-  background: var(--primary);
+  background: var(--header-links);
 }
 .header__nav-icon__icon::before, .header__nav-icon__icon::after {
   width: 25px;
   height: 3px;
   content: "";
-  background: var(--primary);
+  background: var(--header-links);
 }
 .header__nav-icon__icon::before {
   position: absolute;
@@ -1591,20 +1591,12 @@ nav {
   top: 7px;
   right: 0;
 }
-.header__nav--active .header__nav-icon__icon {
-  --header-bg: var(--primary);
-  --header-text: var(--primary-fg);
-  color: var(--header-text);
-  background: var(--header-text);
-}
-.header__nav--active .header__nav-icon__icon::before, .header__nav--active .header__nav-icon__icon::after {
-  background: var(--header-text);
-}
 
 .js-header-nav .nav--primary {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+  background-color: var(--header-bg);
 }
 .js-header-nav .nav--primary li {
   display: inline;
@@ -1639,14 +1631,13 @@ nav {
     letter-spacing: 0;
   }
   .header__nav--active .js-header-nav {
-    --header-color: var(--primary-fg);
     margin: 0;
     padding: 6rem 52px;
     z-index: 99;
-    background: var(--primary);
+    background: var(--header-bg);
   }
   .header__nav--active .js-header-nav .nav--primary li {
-    border-bottom: solid 1px var(--header-color);
+    border-bottom: solid 1px var(--header-links);
   }
   .header__nav--active .js-header-nav .nav--primary li:last-child {
     border-bottom: 0;
@@ -1654,10 +1645,10 @@ nav {
   .header__nav--active .js-header-nav .nav--primary li a {
     display: block;
     width: 100%;
-    color: var(--header-color);
+    color: var(--header-links);
   }
   .header__nav--active .js-header-nav .nav--primary li a:hover {
-    color: var(--header-color);
+    color: var(--header-links);
   }
 }
 
@@ -1702,8 +1693,8 @@ nav {
 .header__search__form input[type=search] {
   background-color: transparent;
   border: 0 none;
-  border-bottom: 2px solid var(--primary);
-  color: var(--body-color);
+  border-bottom: 2px solid var(--header-links);
+  color: var(--header-links);
   width: 12rem;
 }
 .header__search__form input[type=search]:focus {
@@ -1713,11 +1704,11 @@ nav {
   text-indent: -999999rem;
 }
 .header--home .header__search__form input[type=search] {
-  color: var(--header-color);
-  border-bottom: 1px solid var(--header-color);
+  color: var(--header-links);
+  border-bottom: 1px solid var(--header-links);
 }
 .header--home .header__search__form input[type=search]:focus {
-  border-color: var(--brand-orig);
+  border-color: var(--header-links);
 }
 .header__search__form input[type=submit] {
   display: none;
