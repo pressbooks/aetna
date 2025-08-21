@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/pressbooks/aetna/compare/v1.1.0...v1.1.1) (2025-08-21)
+
+
+### Bug Fixes
+
+* improve menu display on mobile ([#108](https://github.com/pressbooks/aetna/issues/108)) ([9a13314](https://github.com/pressbooks/aetna/commit/9a13314727ba60f24da5d594ae8ae37daabee21e))
+
 ## [1.1.0](https://github.com/pressbooks/aetna/compare/v1.0.5...v1.1.0) (2025-07-22)
 
 
